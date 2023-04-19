@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/Base.css">
+    <title>Car Program</title>
+</head>
+<body>
+      <div class="section-01">
+    <div class="c-wrapper">
+      <div class="container">
+        <div class="a-item">
+          <h3>Araç Bilgileri</h3>
+          <form class="a-item-01">
+            <label class="a-item-01-A" for="name">Aracın adı:</label>
+            <input class="a-item-01-B" id="name" type="text">
+            <label for="modal" class="a-item-01-A">Aracın modeli:</label>
+            <input class="a-item-01-B" id="modal" type="text">
+            <label for="year" class="a-item-01-A">Aracın yılı:</label>
+            <input class="a-item-01-B" id="year" type="text">
+            <label for="url" class="a-item-01-A">Aracın Url'i:</label>
+            <input class="a-item-01-B" id="img" type="text">
+            <label type="text"></label>
+            <input class="a-item-01-C" id="submit" type="button" value="Ekle" onclick="Filter.Actions.getValue()" >
+          </form>
+        </div>
+        <div id="car-area" class="b-item">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
